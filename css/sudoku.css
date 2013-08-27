@@ -1,0 +1,30 @@
+/* @module: reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+*,body{font-family:Arial,Helvetica,sans-serif; }
+body{color:#333;background:#FFF;font-size:12px;line-height:1.5;}
+th,td{text-align:left;vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:1em;font-weight:normal;}
+a,a.visited{color:#069;text-decoration:none;}
+a:hover {text-decoration:underline;}
+*html a:hover span{text-decoration:underline;}
+a.current:hover {text-decoration:none;cursor:default;}
+img{display:block;border:0;}
+li{list-style:none;}
+input,label,select,option,textarea,button,fieldset,legend{font-size:1em;font-family:Arial,Helvetica,sans-serif;}
+textarea {overflow:auto\9;} /* fix IE area scrollbar*/
+q:before,q:after{content:''}
+
+/* #content */
+table {
+    float: left;
+    border: 2px solid #ccc;
+}
+.clear {
+    clear: both;
+}
+input {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+}
